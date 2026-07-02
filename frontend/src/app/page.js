@@ -270,7 +270,6 @@ export default function Home() {
         </div>
       )}
 
-
       {successToast && (
         <div className="toast-success">
           <span className="toast-success-text">
