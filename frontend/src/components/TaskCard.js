@@ -41,6 +41,7 @@ export default function TaskCard({ task, onEdit, isOwner, currentUser }) {
           {task.priority}
         </span>
       </div>
+      
       <h4 className="task-card-title">{task.title}</h4>
       {task.description && (
         <p className="task-card-description">{task.description}</p>

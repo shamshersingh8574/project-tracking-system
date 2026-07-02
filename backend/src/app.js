@@ -32,7 +32,6 @@ const io = socketIo(server, {
   },
 });
 
-// Operating in-memory mode.
 app.set('io', io);
 
 initializeSockets(io);
